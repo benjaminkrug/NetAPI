@@ -45,7 +45,7 @@ namespace mainApi
                                   builder =>
                                   {
                                       builder.WithOrigins("http://localhost:8080",
-                                          "https://silly-galileo-6b0d56.netlify.app/");
+                                          "https://silly-galileo-6b0d56.netlify.app");
                                   });
             });
 
