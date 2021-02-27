@@ -44,7 +44,8 @@ namespace mainApi
                 options.AddPolicy(name: MyAllowSpecificOrigins,
                                   builder =>
                                   {
-                                      builder.WithOrigins("http://localhost:8080");
+                                      builder.WithOrigins("http://localhost:8080",
+                                          "https://silly-galileo-6b0d56.netlify.app/");
                                   });
             });
 
